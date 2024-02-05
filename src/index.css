@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(246, 245, 245, 0.523);
+}
+
+
+.header-top{
+    background-color:#6c996f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    padding: 20px;
+
+}
+
+.logo-icon{
+    font-size: 80px;
+    color:#f7e8a6;
+}
+
+.redes-sociais{
+    padding: 20px;
+    color: #f7e8a6;
+    font-size: 30px;
+    
+}
+
+.header-bottom{
+    background-color: #f7e8a6;
+    padding: 10px;
+}
+
+.nav-list{
+    padding: 10px;
+    color: #fff;
+    font-size: 22px;
+    list-style-type: none;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.link{
+    text-decoration: none;
+    color: #6c996f;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 30px 0px;
+}
+
+.title-card{
+    cursor: pointer;
+}
+
+.title-card:hover{
+    color: #6c996f;
+}
+
+.section-redes-sociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 10px;
+    padding: 30px;
+}
+
+.rede-social-btn{
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    background-color: #fff5cb;
+    border: solid 1px #6c996f;
+    color: #6c996f;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.rede-social-btn:hover{
+    background-color: #6c996f;
+    color: #fff5cb;
+}
+
+.footer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6c996f; 
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+   width: 80%;
+}
+
+.footer .footer-top div{
+    padding: 30px;
+    width: 400px;
+    height: 300px;
+}
+
+.footer-top div h3, .footer-top div p{
+    color: #fff;
+}
+
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    background-color: #f7e8a6;
+}
+
+.footer-bottom p a, .footer-bottom p{
+    text-decoration: none;
+    color: #6c996f;
+}
+
+.artigo-p{
+    margin: 20px;
+    text-align: justify;
+}
